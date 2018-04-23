@@ -1,6 +1,6 @@
 # Coursera
 
-[Coursera] Downloading all the assignments jupyter notebooks and files   
+## [Coursera] Downloading all the assignments jupyter notebooks and files   
 1 Go to the home of the coursera-notebook hub  
 2 Create a new python notebook  
 3 Execute !tar cvfz allfiles.tar.gz * in a cell  
