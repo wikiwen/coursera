@@ -1,4 +1,4 @@
-# Coursera
+# Download all Coursera materials
 
 ## Downloading all the assignments jupyter notebooks and files   
 1 Go to the home of the coursera-notebook hub  
@@ -7,7 +7,7 @@
 4 Download the archive !  
 参考：https://www.reddit.com/r/learnmachinelearning/comments/7er5ps/coursera_downloading_all_the_assignments_jupyter/
 
-## Downloading all materials of the course, like videos,ppts,etc
+## Downloading all materials of the course, like videos, ppts, etc
 ### Install the script: coursera-dl
     pip install coursera-dl
 ### Running the script
