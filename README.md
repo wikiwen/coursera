@@ -27,6 +27,19 @@ Run the script to download the materials by providing your Coursera account cred
     Maintain a list of classes in a dir:
     Initialize:              mkdir -p CURRENT/{class1,class2,..classN}
     Update:                  coursera-dl -n --path CURRENT `\ls CURRENT`
+### use default config
+Alternatively, if you want to store your preferred parameters (which might also include your username and password), create a file named coursera-dl.conf where the script is supposed to be executed, with the following format:
+
+    --username <user>
+    --password <pass>
+    --subtitle-language en,zh-CN|zh-TW
+    --download-quizzes
+    #--mathjax-cdn https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js
+    # more other parameters
+Parameter which is stored in the file will be overriden if it is again specified in your commandline script
+
+Note: In coursera-dl.conf, all the parameters should not be wrapped with quotes.
+
 ### Resuming downloads
     coursera-dl -u <user> -p <pass> --resume <course_name>
     
